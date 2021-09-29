@@ -1,0 +1,333 @@
+body{
+    font-family: 'Monserrat',sans-serif;
+    margin: 0px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+h1{
+    color: #e20000;
+      font-size: 36px;
+}
+input, textarea, .btn{
+    border-radius: 15px !important;
+}
+textarea{
+    height: 150px;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border:1px solid #e20000 ;
+    border-radius: 20px;
+ 
+}
+
+#contacto{
+    background-image:url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+}
+#proyectos, #sobre-mi{
+    background-image: url(../images/fondo-proyectos.png);
+     background-size: 100%;
+    background-repeat:no-repeat; 
+   
+}
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#proyectos img {
+    height: 210px;
+}
+#proyectos .card p{
+    height: 90px;
+}
+#inicio{
+    background-image:url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat:no-repeat; 
+}
+#inicio p{
+ color: white;
+ border: 1px solid white;
+ border-radius: 15px;
+}
+
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+.btn{
+    color: #370a6d;
+    background-color: white;
+    border: none;
+   
+    
+}
+.btn-rojo{
+    background-color: #e20000;
+    color: white;
+     font-weight: 100;
+     border-radius: 15px
+}
+.link-rojo a{
+   color: #E20000;
+   text-decoration: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color:#370a6d;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.whatsapp{
+ background-color:#370a6d;
+  color: white;
+  width: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  padding: 8px 0 20px 0;
+  right: 80px;
+  position: fixed;
+  bottom: 0px;
+  
+}
+.whatsapp a{
+    color: white;
+}
+
+@media(max-width: 750px){    /*para mobile*/
+    #contacto , #inicio{
+        background-image:url(../images/fondo-proyectos.png);
+        background-size: 100%;
+        background-repeat:no-repeat;        
+    }
+    footer a{
+    color: #e20000;
+   
+}
+footer .fa-github{
+    font-size: 30px;
+    color: #e20000;
+}
+footer .fa-linkedin-in{
+    color: white;
+    background-color: #e20000;
+}
+img .cohete{
+    height: 10px;
+    width: 10px;
+}
+
+}
+/* Pagina Proyectos*/
+
+#footer-proyectos .fa-github {
+    color: #e20000;
+    background-color: white;
+}
+#footer-proyectos .fa-linkedin-in{
+    color: white;
+    background-color: #e20000;
+}
+#footer-proyectos a{
+    color: #e20000;
+}
+/* pagina inicio*/
+
+.cohete{
+    height: 400px;
+    width: 400px;
+}
+
+.cohete:hover{
+       height: 410px;
+}
+.btn-shadow{
+    color:#370a6d;
+    background-color:white;
+    border-radius:20px;
+    text-decoration: none;
+    padding: 10px;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+   
+ }
+ .btn-shadow:hover{
+    color: white;
+    background-color:#370a6d;
+ 
+}  
+#inicio  footer-inicio a{
+    color: white;
+    font-weight: 100px;
+    
+ }
+ .bienvenido{
+     font-weight: bold;
+     font-size: 18px;
+ }
+
+ /* Sobre mi */
+ 
+ .mi-foto{
+  
+    border-radius: 500px;
+    border: solid 8px white;
+ }
+ #sobre-mi .btn-shadow{
+    color:white;
+    background-color:#e20000;
+    border-radius:20px;
+    text-decoration: none;
+    padding: 10px;
+ }
+ #sobre-mi .btn-shadow:hover{
+    color: white;
+    background-color:#370a6d; }
+ 
+ #sobre-mi h2{
+     color: white;
+     font-size: 25px;
+ }
+
+ .tecnologias .card{
+     height: 200px;
+     align-items: center;
+    margin: 10px;
+ }
+ .tecnologias .card  h3{
+     font-size: 20px;
+ }
+
+ .idiomas{
+     background-color: #eee;
+     padding: 20px;
+      
+}
+
+ .idiomas h2{
+    color: black !important;
+    padding: 10px;
+ }
+         
+.card-idiomas{
+    background-color: white;
+    border-radius:0px 20px 20px 0px;
+   margin: inherit;
+    
+}
+.violeta{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+.idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+  
+    
+ 
+.experiencia i{
+    color:#370a6d;
+    font-size: 50px;
+}
+.experiencia h2{
+    color:#370a6d !important;
+    
+}
+.experiencia img{
+    width: 250px;
+}
+.formacion-academica img{
+    width: 250px;
+}
+.formacion-academica h2{
+    color:#E20000 !important;
+}
+.cursos img{
+    width: 250px;
+
+}
+.cursos h2{
+    color: #E20000 !important;
+}
+.cursos i{
+    color:#E20000;
+    font-size: 50px;
+}
+
+#footer-contacto  a{
+    text-decoration: none;
+}
+#footer-proyectos  a{
+    text-decoration: none;
+}
+#footer-inicio  a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+
+   
+   
+
+
+
+
+
+
+
+
+
