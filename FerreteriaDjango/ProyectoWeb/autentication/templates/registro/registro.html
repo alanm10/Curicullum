@@ -1,0 +1,23 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<h1 style="color: white;">Pagina en Construccion.
+  Disculpe las Molestias Ocasionadas
+</h1>
+
+
+    <form method="post" action="" style="color:white">
+        {% csrf_token %}
+
+        {{form}}
+   <div class="d-grid gap-2">
+     <button type="submit" name="" id="" class="btn btn-primary">Registrarse</button>
+   </div>
+
+  
+
+  
+
+{% endblock %}
