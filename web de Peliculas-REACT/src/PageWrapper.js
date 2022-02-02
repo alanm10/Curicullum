@@ -105,89 +105,54 @@ export default function PageWrapper(props) {
                   <a href="#page-top"></a>
                 </li>
                 <li className="dropdown first">
-                  <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown">
-                    Home <i className="fa fa-angle-down" aria-hidden="true"></i>
+                  <a href="/"className="btn btn-default dropdown-toggle lv1"  >
+                    Inicio
                   </a>
-                  <ul className="dropdown-menu level1">
-                    <li><a href="index-2.html">Home 01</a></li>
-                    <li><a href="homev2.html">Home 02</a></li>
-                    <li><a href="homev3.html">Home 03</a></li>
-                  </ul>
+                 
+                </li>
+                <li className="dropdown first">
+                  <a href="/blog"  className="btn btn-default dropdown-toggle lv1">
+                    Noticias
+                  </a>
+                
+                  
+                  
                 </li>
                 <li className="dropdown first">
                   <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                    movies<i className="fa fa-angle-down" aria-hidden="true"></i>
+                    Celebridades <i className="fa fa-angle-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown-menu level1">
-                    <li className="dropdown">
-                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" >Movie grid<i className="ion-ios-arrow-forward"></i></a>
-                      <ul className="dropdown-menu level2">
-                        <li><a href="moviegrid.html">Movie grid</a></li>
-                        <li><a href="moviegridfw.html">movie grid full width</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="movielist.html">Movie list</a></li>
-                    <li><a href="moviesingle.html">Movie single</a></li>
-                    <li className="it-last"><a href="seriessingle.html">Series single</a></li>
+                    <li><a href="celebritygrid01.html">Celebridades 01</a></li>
+                    <li><a href="celebritygrid02.html">Celebridades 02 </a></li>
                   </ul>
                 </li>
-                <li className="dropdown first">
-                  <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                    celebrities <i className="fa fa-angle-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown-menu level1">
-                    <li><a href="celebritygrid01.html">celebrity grid 01</a></li>
-                    <li><a href="celebritygrid02.html">celebrity grid 02 </a></li>
-                    <li><a href="celebritylist.html">celebrity list</a></li>
-                    <li className="it-last"><a href="celebritysingle.html">celebrity single</a></li>
-                  </ul>
-                </li>
-                <li className="dropdown first">
-                  <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                    news <i className="fa fa-angle-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown-menu level1">
-                    <li><a href="bloglist.html">blog List</a></li>
-                    <li><a href="bloggrid.html">blog Grid</a></li>
-                    <li className="it-last"><a href="blogdetail.html">blog Detail</a></li>
-                  </ul>
-                </li>
-                <li className="dropdown first">
-                  <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                    community <i className="fa fa-angle-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown-menu level1">
-                    <li><a href="userfavoritegrid.html">user favorite grid</a></li>
-                    <li><a href="userfavoritelist.html">user favorite list</a></li>
-                    <li><a href="userprofile.html">user profile</a></li>
-                    <li className="it-last"><a href="userrate.html">user rate</a></li>
-                  </ul>
-                </li>
+                
               </ul>
               <ul className="nav navbar-nav flex-child-menu menu-right">
                 <li className="dropdown first">
                   <a className="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-                    pages <i className="fa fa-angle-down" aria-hidden="true"></i>
+                    Paginas <i className="fa fa-angle-down" aria-hidden="true"></i>
                   </a>
                   <ul className="dropdown-menu level1">
-                    <li><a href="landing.html">Landing</a></li>
-                    <li><a href="404.html">404 Page</a></li>
-                    <li className="it-last"><a href="comingsoon.html">Coming soon</a></li>
+                    <li><a href="landing.html">Cargando</a></li>
+                    <li><a href="404.html">Pagina 404</a></li>
+                    <li className="it-last"><a href="comingsoon.html">Proximamente</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Help</a></li>
-                <li className="loginLink"><a href="#">LOG In</a></li>
-                <li className="btn signupLink"><a href="#">sign up</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li className="loginLink"><a href="#">Login</a></li>
+                <li className="btn signupLink"><a href="#">Acceder</a></li>
               </ul>
             </div>
           </nav>
 
           <div className="top-search">
             <select>
-              <option value="united">TV show</option>
-              <option value="saab">Others</option>
+              <option value="united">TV </option>
+              <option value="saab">Otros</option>
             </select>
-            <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for" />
+            <input type="text" placeholder="Busca una pelicula o serie" />
           </div>
         </div>
       </header>
@@ -197,10 +162,10 @@ export default function PageWrapper(props) {
           <div className="row">
             <div className="col-md-12">
               <div className="hero-ct">
-                <h1> movie listing - list</h1>
+                <h1> Lista de Peliculas</h1>
                 <ul className="breadcumb">
-                  <li className="active"><a href="#">Home</a></li>
-                  <li> <span className="ion-ios-arrow-right"></span> movie listing</li>
+                  <li className="active"><a href="#">Inicio</a></li>
+                  <li> <span className="ion-ios-arrow-right"></span> Listado de peliculas</li>
                 </ul>
               </div>
             </div>
@@ -212,15 +177,15 @@ export default function PageWrapper(props) {
           <div className="row ipad-width2">
             <div className="col-md-8 col-sm-12 col-xs-12">
               <div className="topbar-filter">
-                <p>Found <span>1,608 movies</span> in total</p>
+                <p>Encontrado <span>1,608 peliculas</span> en total</p>
                 <label>Sort by:</label>
                 <select>
-                  <option value="popularity">Popularity Descending</option>
-                  <option value="popularity">Popularity Ascending</option>
-                  <option value="rating">Rating Descending</option>
-                  <option value="rating">Rating Ascending</option>
-                  <option value="date">Release date Descending</option>
-                  <option value="date">Release date Ascending</option>
+                  <option value="popularity">Popularidad descendente</option>
+                  <option value="popularity">Popularidad ascendente</option>
+                  <option value="rating">Raating descendente</option>
+                  <option value="rating">Rating ascendente</option>
+                  <option value="date">Fecha de Lanzamiento descendente</option>
+                  <option value="date">Fecha de Lanzamiento ascendente</option>
                 </select>
                 <a href="movielist.html" className="list"><i className="ion-ios-list-outline active"></i></a>
                 <a href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
@@ -234,19 +199,19 @@ export default function PageWrapper(props) {
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="sidebar">
                 <div className="searh-form">
-                  <h4 className="sb-title">Search for movie</h4>
+                  <h4 className="sb-title">Buscar peliculas</h4>
                   <form className="form-style-1" action="#">
                     <div className="row">
                       <div className="col-md-12 form-it">
-                        <label>Movie name</label>
-                        <input type="text" placeholder="Enter keywords" />
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Ingrese su busqueda" />
                       </div>
                       <div className="col-md-12 form-it">
-                        <label>Genres & Subgenres</label>
+                        <label>Genero & Subgenero</label>
                         <div className="group-ip">
                           <select
                             name="skills" multiple="" className="ui fluid dropdown">
-                            <option value="">Enter to filter genres</option>
+                            <option value="">Enter Para filtrar generos</option>
                             <option value="Action1">Action 1</option>
                             <option value="Action2">Action 2</option>
                             <option value="Action3">Action 3</option>
@@ -257,7 +222,7 @@ export default function PageWrapper(props) {
 
                       </div>
                       <div className="col-md-12 form-it">
-                        <label>Rating Range</label>
+                        <label>Rating</label>
 
                         <select>
                           <option value="range">-- Select the rating range below --</option>
@@ -268,7 +233,7 @@ export default function PageWrapper(props) {
 
                       </div>
                       <div className="col-md-12 form-it">
-                        <label>Release Year</label>
+                        <label>Fecha de lanzamiento</label>
                         <div className="row">
                           <div className="col-md-6">
                             <select>
@@ -298,11 +263,11 @@ export default function PageWrapper(props) {
                   <img src="images/uploads/ads1.png" alt="" />
                 </div>
                 <div className="sb-facebook sb-it">
-                  <h4 className="sb-title">Find us on Facebook</h4>
+                  <h4 className="sb-title">Encuentranos en Facebook</h4>
                   <iframe src="#" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftemplatespoint.net%2F%3Ffref%3Dts&tabs=timeline&width=340&height=315px&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" height="315"  ></iframe>
                 </div>
                 <div className="sb-twitter sb-it">
-                  <h4 className="sb-title">Tweet to us</h4>
+                  <h4 className="sb-title">Tweet</h4>
                   <div className="slick-tw">
                     <div className="tweet item" id="">
                     </div>
@@ -320,52 +285,48 @@ export default function PageWrapper(props) {
           <div className="flex-parent-ft">
             <div className="flex-child-ft item1">
               <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" /></a>
-              <p>5th Avenue st, manhattan<br />
-                New York, NY 10001</p>
-              <p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+              <p>Velez Sarfield 300</p>
+              <p>Contacto: <a href="#">(+01) 202 342 6789</a></p>
             </div>
             <div className="flex-child-ft item2">
-              <h4>Resources</h4>
+              <h4>Recursos</h4>
               <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
                 <li><a href="#">Blockbuster</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Forums</a></li>
+                <li><a href="#">Contacto</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Ayuda</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item3">
               <h4>Legal</h4>
               <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Security</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+                <li><a href="#">Politica de Privacidad</a></li>
+                <li><a href="#">Seguridad</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item4">
-              <h4>Account</h4>
+              <h4>Cuenta</h4>
               <ul>
-                <li><a href="#">My Account</a></li>
-                <li><a href="#">Watchlist</a></li>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">User Guide</a></li>
+                <li><a href="#">Mi cuenta</a></li>
+                <li><a href="#">Mi lista</a></li>
+                <li><a href="#">Colecciones</a></li>
+                <li><a href="#">Guia de usuario</a></li>
               </ul>
             </div>
             <div className="flex-child-ft item5">
-              <h4>Newsletter</h4>
-              <p>Subscribe to our newsletter system now <br /> to get latest news from us.</p>
+              <h4>Noticias</h4>
+              <p>Suscribase a nuestras noticias  <br /> para obtener la información más reciente.</p>
               <form action="#">
-                <input type="text" placeholder="Enter your email..." />
+                <input type="text" placeholder="Ingrese su email..." />
               </form>
-              <a href="#" className="btn">Subscribe now <i className="ion-ios-arrow-forward"></i></a>
+              <a href="#" className="btn">Suscribete Ahora <i className="ion-ios-arrow-forward"></i></a>
             </div>
           </div>
         </div>
         <div className="ft-copyright">
-          <div className="ft-left">
-            <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
-          </div>
+          
           <div className="backtotop">
             <p><a href="#" id="back-to-top">Back to top  <i className="ion-ios-arrow-thin-up"></i></a></p>
           </div>
